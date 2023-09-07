@@ -1,8 +1,15 @@
 {
   "version": 2,
-  "dgSpecHash": "B4qfPSpOA0gY1bZTKQE9FcLCTTAcp/tazsaZzirIsYvOl98dY4pulvi3E4x30SnNphOjYKfBl32By8OoXbrEdg==",
+  "dgSpecHash": "b43A0Pnq+SYQjU4FjUkYNJmjcg1BxitRORBfH4TFEKKm5y81MU/WYsWSfBnbfa9P7KpMNOvhHV9ywD6/a2mqBg==",
   "success": true,
   "projectFilePath": "C:\\Users\\korni\\source\\repos\\AspNetCoreHomework\\hm2\\hm2.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\korni\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
+    "C:\\Users\\korni\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\korni\\.nuget\\packages\\swashbuckle.aspnetcore\\6.5.0\\swashbuckle.aspnetcore.6.5.0.nupkg.sha512",
+    "C:\\Users\\korni\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.5.0\\swashbuckle.aspnetcore.swagger.6.5.0.nupkg.sha512",
+    "C:\\Users\\korni\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.5.0\\swashbuckle.aspnetcore.swaggergen.6.5.0.nupkg.sha512",
+    "C:\\Users\\korni\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.5.0\\swashbuckle.aspnetcore.swaggerui.6.5.0.nupkg.sha512"
+  ],
   "logs": []
 }

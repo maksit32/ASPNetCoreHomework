@@ -1,8 +1,15 @@
 {
   "version": 2,
-  "dgSpecHash": "7oc0IWF4W5HFMESgU9cNvS+yVN4h9P4Kf+IvShzalhotFSnTSFR9TV8tBObBjo/bY6ShKfPpu/x7wavl04BTrg==",
+  "dgSpecHash": "VHZbqmSsBSpn3s1fx9aetK/0KnnYW8p1KnO01cT4eQRjGyem0akqv4yLu9I6qhMiwcBB7P7bCXfz0xVSkgKErw==",
   "success": true,
   "projectFilePath": "C:\\Users\\korni\\source\\repos\\AspNetCoreHomework\\AspNetCoreHomework1\\AspNetCoreHomework1.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\korni\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
+    "C:\\Users\\korni\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\korni\\.nuget\\packages\\swashbuckle.aspnetcore\\6.5.0\\swashbuckle.aspnetcore.6.5.0.nupkg.sha512",
+    "C:\\Users\\korni\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.5.0\\swashbuckle.aspnetcore.swagger.6.5.0.nupkg.sha512",
+    "C:\\Users\\korni\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.5.0\\swashbuckle.aspnetcore.swaggergen.6.5.0.nupkg.sha512",
+    "C:\\Users\\korni\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.5.0\\swashbuckle.aspnetcore.swaggerui.6.5.0.nupkg.sha512"
+  ],
   "logs": []
 }

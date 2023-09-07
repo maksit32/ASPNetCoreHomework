@@ -18,9 +18,14 @@ namespace hm2
         public static void Main(string[] args)
         {
             var builder = WebApplication.CreateBuilder(args);
+            //добавляем swager
+            builder.Services.AddEndpointsApiExplorer();
+            builder.Services.AddSwaggerGen();
+
             var app = builder.Build();
 
-
+            app.UseSwagger();
+            app.UseSwaggerUI();
 
             //1.1 добавление элементов
             app.MapPost("/items{name}/price/{price}", myShop.AddNewItem); //REST
