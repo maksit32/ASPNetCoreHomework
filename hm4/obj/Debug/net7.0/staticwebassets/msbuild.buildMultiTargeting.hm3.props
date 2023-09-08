@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\hm3.props" />
+</Project>

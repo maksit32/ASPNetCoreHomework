@@ -9,6 +9,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "hm2", "hm2\hm2.csproj", "{0
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "hm3", "hm3 (edited 2 with async await)\hm3.csproj", "{1BEB2D2F-717C-44DB-9075-6186CE8D1585}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "hm4", "hm4\hm4.csproj", "{55B0E9F5-D99A-4BE4-AB09-C0119BAD563D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{1BEB2D2F-717C-44DB-9075-6186CE8D1585}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1BEB2D2F-717C-44DB-9075-6186CE8D1585}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1BEB2D2F-717C-44DB-9075-6186CE8D1585}.Release|Any CPU.Build.0 = Release|Any CPU
+		{55B0E9F5-D99A-4BE4-AB09-C0119BAD563D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{55B0E9F5-D99A-4BE4-AB09-C0119BAD563D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{55B0E9F5-D99A-4BE4-AB09-C0119BAD563D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{55B0E9F5-D99A-4BE4-AB09-C0119BAD563D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
