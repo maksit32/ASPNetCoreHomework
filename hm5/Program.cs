@@ -17,7 +17,9 @@ builder.Services.AddTransient<IEmailSender, EmailSender>(
     .CreateLogger("Program")));
 //добавл€ем сервис отправл€ющий каждые 60 минут (выполнит ExecuteAsync())
 builder.Services.AddHostedService(serviceProvider =>
-    new BackgroundEmailMemodySender(serviceProvider.GetService<IEmailSender>(), serviceProvider.GetService<IMemoryUsedChecker>(), TimeSpan.FromMinutes(60)));
+    new BackgroundEmailMemodySender(serviceProvider.GetService<IEmailSender>(), 
+                                            serviceProvider.GetService<IMemoryUsedChecker>(), 
+                                            TimeSpan.FromMinutes(60)));
 
 
 var app = builder.Build();

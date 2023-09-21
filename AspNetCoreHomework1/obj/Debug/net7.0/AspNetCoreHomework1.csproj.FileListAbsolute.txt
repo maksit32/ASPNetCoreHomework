@@ -24,3 +24,9 @@ C:\Users\korni\source\repos\AspNetCoreHomework\AspNetCoreHomework1\obj\Debug\net
 C:\Users\korni\source\repos\AspNetCoreHomework\AspNetCoreHomework1\obj\Debug\net7.0\AspNetCoreHomework1.pdb
 C:\Users\korni\source\repos\AspNetCoreHomework\AspNetCoreHomework1\obj\Debug\net7.0\AspNetCoreHomework1.genruntimeconfig.cache
 C:\Users\korni\source\repos\AspNetCoreHomework\AspNetCoreHomework1\obj\Debug\net7.0\ref\AspNetCoreHomework1.dll
+C:\Users\korni\source\repos\AspNetCoreHomework\AspNetCoreHomework1\bin\Debug\net7.0\Microsoft.OpenApi.dll
+C:\Users\korni\source\repos\AspNetCoreHomework\AspNetCoreHomework1\bin\Debug\net7.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\korni\source\repos\AspNetCoreHomework\AspNetCoreHomework1\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\korni\source\repos\AspNetCoreHomework\AspNetCoreHomework1\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\korni\source\repos\AspNetCoreHomework\AspNetCoreHomework1\obj\Debug\net7.0\AspNetCoreHomework1.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\korni\source\repos\AspNetCoreHomework\AspNetCoreHomework1\obj\Debug\net7.0\AspNetCoreHomework1.csproj.CopyComplete
