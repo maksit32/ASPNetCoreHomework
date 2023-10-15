@@ -1,0 +1,42 @@
+﻿2023-10-13 17:18:00.888 +03:00 [INF] Сервер успешно запущен!
+2023-10-13 17:18:01.055 +03:00 [INF] Now listening on: https://localhost:7123
+2023-10-13 17:18:01.057 +03:00 [INF] Now listening on: http://localhost:5151
+2023-10-13 17:18:01.058 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-10-13 17:18:01.059 +03:00 [INF] Hosting environment: Development
+2023-10-13 17:18:01.059 +03:00 [INF] Content root path: C:\Users\korni\source\repos\AspNetCoreHomework\hm9
+2023-10-13 17:18:01.488 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7123/swagger - -
+2023-10-13 17:18:01.574 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7123/swagger - - - 301 0 - 87.6145ms
+2023-10-13 17:18:01.583 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7123/swagger/index.html - -
+2023-10-13 17:18:01.729 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7123/swagger/index.html - - - 200 - text/html;charset=utf-8 146.7123ms
+2023-10-13 17:18:01.754 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7123/swagger/swagger-ui.css - -
+2023-10-13 17:18:01.756 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7123/swagger/swagger-ui-bundle.js - -
+2023-10-13 17:18:01.757 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7123/swagger/swagger-ui-standalone-preset.js - -
+2023-10-13 17:18:01.758 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7123/_framework/aspnetcore-browser-refresh.js - -
+2023-10-13 17:18:01.766 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7123/_framework/aspnetcore-browser-refresh.js - - - 200 11976 application/javascript;+charset=utf-8 7.4672ms
+2023-10-13 17:18:01.774 +03:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2023-10-13 17:18:01.774 +03:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2023-10-13 17:18:01.776 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7123/swagger/swagger-ui.css - - - 200 144929 text/css 22.2247ms
+2023-10-13 17:18:01.776 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7123/swagger/swagger-ui-standalone-preset.js - - - 200 312163 text/javascript 19.3294ms
+2023-10-13 17:18:01.905 +03:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2023-10-13 17:18:01.906 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7123/swagger/swagger-ui-bundle.js - - - 200 1061536 text/javascript 149.6451ms
+2023-10-13 17:18:02.252 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7123/_vs/browserLink - -
+2023-10-13 17:18:02.306 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7123/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 54.0811ms
+2023-10-13 17:18:02.622 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7123/swagger/v1/swagger.json - -
+2023-10-13 17:18:02.627 +03:00 [INF] No action descriptors found. This may indicate an incorrectly configured application or missing application parts. To learn more, visit https://aka.ms/aspnet/mvc/app-parts
+2023-10-13 17:18:02.715 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7123/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 92.4484ms
+2023-10-13 17:18:05.900 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7123/send_email - -
+2023-10-13 17:18:05.909 +03:00 [INF] Executing endpoint 'HTTP: GET /send_email'
+2023-10-13 17:18:06.003 +03:00 [INF] EmailSender created
+2023-10-13 17:18:06.006 +03:00 [INF] Sending message. Try number:  1
+2023-10-13 17:18:06.015 +03:00 [WRN] Caugth an error: System.ArgumentNullException: Value cannot be null. (Parameter 'config')
+   at Program.<>c.<<<Main>$>b__0_3>d.MoveNext() in C:\Users\korni\source\repos\AspNetCoreHomework\hm9\Program.cs:line 73
+2023-10-13 17:18:11.031 +03:00 [INF] Sending message. Try number:  2
+2023-10-13 17:18:11.032 +03:00 [WRN] Caugth an error: System.ArgumentNullException: Value cannot be null. (Parameter 'config')
+   at Program.<>c.<<<Main>$>b__0_3>d.MoveNext() in C:\Users\korni\source\repos\AspNetCoreHomework\hm9\Program.cs:line 73
+2023-10-13 17:18:16.039 +03:00 [INF] Sending message. Try number:  3
+2023-10-13 17:18:16.040 +03:00 [WRN] Caugth an error: System.ArgumentNullException: Value cannot be null. (Parameter 'config')
+   at Program.<>c.<<<Main>$>b__0_3>d.MoveNext() in C:\Users\korni\source\repos\AspNetCoreHomework\hm9\Program.cs:line 73
+2023-10-13 17:18:21.056 +03:00 [ERR] Error with IEmailSender: message not delivered {"$type":"EmailSender"}
+2023-10-13 17:18:21.060 +03:00 [INF] Executed endpoint 'HTTP: GET /send_email'
+2023-10-13 17:18:21.062 +03:00 [INF] EmailSender disposed
+2023-10-13 17:18:21.062 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7123/send_email - - - 200 - text/plain;+charset=utf-8 15162.1547ms

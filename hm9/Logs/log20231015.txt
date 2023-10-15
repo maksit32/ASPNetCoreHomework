@@ -1,0 +1,246 @@
+﻿2023-10-15 12:52:51.962 +03:00 [INF] Сервер успешно запущен!
+2023-10-15 12:52:52.213 +03:00 [INF] Now listening on: https://localhost:7123
+2023-10-15 12:52:52.216 +03:00 [INF] Now listening on: http://localhost:5151
+2023-10-15 12:52:52.217 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-10-15 12:52:52.217 +03:00 [INF] Hosting environment: Development
+2023-10-15 12:52:52.218 +03:00 [INF] Content root path: C:\Users\korni\source\repos\AspNetCoreHomework\hm9
+2023-10-15 12:52:53.266 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7123/swagger - -
+2023-10-15 12:52:53.399 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7123/swagger - - - 301 0 - 135.1030ms
+2023-10-15 12:52:53.417 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7123/swagger/index.html - -
+2023-10-15 12:52:53.774 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7123/swagger/index.html - - - 200 - text/html;charset=utf-8 357.6974ms
+2023-10-15 12:52:53.816 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7123/swagger/swagger-ui.css - -
+2023-10-15 12:52:53.821 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7123/swagger/swagger-ui-bundle.js - -
+2023-10-15 12:52:53.823 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7123/swagger/swagger-ui-standalone-preset.js - -
+2023-10-15 12:52:53.825 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7123/_framework/aspnetcore-browser-refresh.js - -
+2023-10-15 12:52:53.870 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7123/_framework/aspnetcore-browser-refresh.js - - - 200 11976 application/javascript;+charset=utf-8 44.9094ms
+2023-10-15 12:52:53.892 +03:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2023-10-15 12:52:53.892 +03:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2023-10-15 12:52:53.894 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7123/swagger/swagger-ui-standalone-preset.js - - - 200 312163 text/javascript 71.2755ms
+2023-10-15 12:52:53.896 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7123/swagger/swagger-ui.css - - - 200 144929 text/css 80.1787ms
+2023-10-15 12:52:53.909 +03:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2023-10-15 12:52:53.910 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7123/swagger/swagger-ui-bundle.js - - - 200 1061536 text/javascript 88.9784ms
+2023-10-15 12:52:54.447 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7123/_vs/browserLink - -
+2023-10-15 12:52:54.507 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7123/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 59.3284ms
+2023-10-15 12:52:54.886 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7123/swagger/v1/swagger.json - -
+2023-10-15 12:52:54.891 +03:00 [INF] No action descriptors found. This may indicate an incorrectly configured application or missing application parts. To learn more, visit https://aka.ms/aspnet/mvc/app-parts
+2023-10-15 12:52:55.011 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7123/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 125.2225ms
+2023-10-15 12:52:57.348 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7123/send_email - -
+2023-10-15 12:52:57.362 +03:00 [INF] Executing endpoint 'HTTP: GET /send_email'
+2023-10-15 12:52:57.474 +03:00 [INF] EmailSender created
+2023-10-15 12:52:57.476 +03:00 [INF] Sending message. Try number:  1
+2023-10-15 12:53:17.255 +03:00 [INF] smtpClient connected
+2023-10-15 12:53:17.700 +03:00 [INF] smtpClient authenticated
+2023-10-15 12:53:19.669 +03:00 [WRN] Found an error: MailKit.Net.Smtp.SmtpCommandException: LTD BeGet: message sending is disabled for mailbox
+'asp2022pd011@rodion-m.ru'. Please, contact support@beget.ru
+   at MailKit.Net.Smtp.SmtpClient.SendAsync(FormatOptions options, MimeMessage message, MailboxAddress sender, IList`1 recipients, CancellationToken cancellationToken, ITransferProgress progress)
+   at MailKit.Net.Smtp.SmtpClient.SendAsync(FormatOptions options, MimeMessage message, MailboxAddress sender, IList`1 recipients, CancellationToken cancellationToken, ITransferProgress progress)
+   at hm8.EmailSender.SendEmailAsync(String fromName, String fromEmail, String password, String toName, String toEmail, String subject, String body, CancellationToken cancellationToken) in C:\Users\korni\source\repos\AspNetCoreHomework\hm9\EmailSender.cs:line 82
+   at Program.<>c.<<<Main>$>b__0_3>d.MoveNext() in C:\Users\korni\source\repos\AspNetCoreHomework\hm9\Program.cs:line 73
+2023-10-15 12:56:19.290 +03:00 [INF] Сервер успешно запущен!
+2023-10-15 12:56:19.489 +03:00 [INF] Now listening on: https://localhost:7123
+2023-10-15 12:56:19.491 +03:00 [INF] Now listening on: http://localhost:5151
+2023-10-15 12:56:19.492 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-10-15 12:56:19.494 +03:00 [INF] Hosting environment: Development
+2023-10-15 12:56:19.496 +03:00 [INF] Content root path: C:\Users\korni\source\repos\AspNetCoreHomework\hm9
+2023-10-15 12:56:20.480 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7123/swagger/index.html - -
+2023-10-15 12:56:20.714 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7123/swagger/index.html - - - 200 - text/html;charset=utf-8 236.1175ms
+2023-10-15 12:56:20.761 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7123/_framework/aspnetcore-browser-refresh.js - -
+2023-10-15 12:56:20.770 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7123/_framework/aspnetcore-browser-refresh.js - - - 200 11976 application/javascript;+charset=utf-8 8.2719ms
+2023-10-15 12:56:21.314 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7123/_vs/browserLink - -
+2023-10-15 12:56:21.360 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7123/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 45.8110ms
+2023-10-15 12:56:21.693 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7123/swagger/v1/swagger.json - -
+2023-10-15 12:56:21.703 +03:00 [INF] No action descriptors found. This may indicate an incorrectly configured application or missing application parts. To learn more, visit https://aka.ms/aspnet/mvc/app-parts
+2023-10-15 12:56:21.796 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7123/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 103.0113ms
+2023-10-15 12:56:23.795 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7123/send_email - -
+2023-10-15 12:56:23.805 +03:00 [INF] Executing endpoint 'HTTP: GET /send_email'
+2023-10-15 12:56:23.861 +03:00 [INF] EmailSender created
+2023-10-15 12:56:23.863 +03:00 [INF] Sending message. Try number:  1
+2023-10-15 12:57:38.854 +03:00 [INF] smtpClient connected
+2023-10-15 12:57:40.468 +03:00 [INF] smtpClient authenticated
+2023-10-15 13:00:48.560 +03:00 [INF] Сервер успешно запущен!
+2023-10-15 13:00:48.645 +03:00 [INF] Now listening on: https://localhost:7123
+2023-10-15 13:00:48.647 +03:00 [INF] Now listening on: http://localhost:5151
+2023-10-15 13:00:48.647 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-10-15 13:00:48.648 +03:00 [INF] Hosting environment: Development
+2023-10-15 13:00:48.649 +03:00 [INF] Content root path: C:\Users\korni\source\repos\AspNetCoreHomework\hm9
+2023-10-15 13:00:49.093 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7123/swagger/index.html - -
+2023-10-15 13:00:49.259 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7123/swagger/index.html - - - 200 - text/html;charset=utf-8 168.5746ms
+2023-10-15 13:00:49.292 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7123/_framework/aspnetcore-browser-refresh.js - -
+2023-10-15 13:00:49.297 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7123/_framework/aspnetcore-browser-refresh.js - - - 200 11976 application/javascript;+charset=utf-8 4.6794ms
+2023-10-15 13:00:49.828 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7123/_vs/browserLink - -
+2023-10-15 13:00:49.843 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7123/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 14.5596ms
+2023-10-15 13:00:50.154 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7123/swagger/v1/swagger.json - -
+2023-10-15 13:00:50.159 +03:00 [INF] No action descriptors found. This may indicate an incorrectly configured application or missing application parts. To learn more, visit https://aka.ms/aspnet/mvc/app-parts
+2023-10-15 13:00:50.235 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7123/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 80.9420ms
+2023-10-15 13:00:52.914 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7123/send_email - -
+2023-10-15 13:00:52.918 +03:00 [INF] Executing endpoint 'HTTP: GET /send_email'
+2023-10-15 13:00:52.954 +03:00 [INF] EmailSender created
+2023-10-15 13:00:52.956 +03:00 [INF] Sending message. Try number:  1
+2023-10-15 13:00:53.140 +03:00 [INF] smtpClient connected
+2023-10-15 13:00:53.202 +03:00 [INF] smtpClient authenticated
+2023-10-15 13:00:53.265 +03:00 [WRN] Found an error: MailKit.Net.Smtp.SmtpCommandException: LTD BeGet: message sending is disabled for mailbox
+'asp2022pd011@rodion-m.ru'. Please, contact support@beget.ru
+   at MailKit.Net.Smtp.SmtpClient.SendAsync(FormatOptions options, MimeMessage message, MailboxAddress sender, IList`1 recipients, CancellationToken cancellationToken, ITransferProgress progress)
+   at MailKit.Net.Smtp.SmtpClient.SendAsync(FormatOptions options, MimeMessage message, MailboxAddress sender, IList`1 recipients, CancellationToken cancellationToken, ITransferProgress progress)
+   at hm8.EmailSender.SendEmailAsync(String fromName, String fromEmail, String password, String toName, String toEmail, String subject, String body, CancellationToken cancellationToken) in C:\Users\korni\source\repos\AspNetCoreHomework\hm9\EmailSender.cs:line 82
+   at Program.<>c.<<<Main>$>b__0_3>d.MoveNext() in C:\Users\korni\source\repos\AspNetCoreHomework\hm9\Program.cs:line 73
+2023-10-15 13:00:58.267 +03:00 [INF] Sending message. Try number:  2
+2023-10-15 13:00:58.365 +03:00 [INF] smtpClient connected
+2023-10-15 13:00:58.403 +03:00 [INF] smtpClient authenticated
+2023-10-15 13:00:58.417 +03:00 [WRN] Found an error: MailKit.Net.Smtp.SmtpCommandException: LTD BeGet: message sending is disabled for mailbox
+'asp2022pd011@rodion-m.ru'. Please, contact support@beget.ru
+   at MailKit.Net.Smtp.SmtpClient.SendAsync(FormatOptions options, MimeMessage message, MailboxAddress sender, IList`1 recipients, CancellationToken cancellationToken, ITransferProgress progress)
+   at MailKit.Net.Smtp.SmtpClient.SendAsync(FormatOptions options, MimeMessage message, MailboxAddress sender, IList`1 recipients, CancellationToken cancellationToken, ITransferProgress progress)
+   at hm8.EmailSender.SendEmailAsync(String fromName, String fromEmail, String password, String toName, String toEmail, String subject, String body, CancellationToken cancellationToken) in C:\Users\korni\source\repos\AspNetCoreHomework\hm9\EmailSender.cs:line 82
+   at Program.<>c.<<<Main>$>b__0_3>d.MoveNext() in C:\Users\korni\source\repos\AspNetCoreHomework\hm9\Program.cs:line 73
+2023-10-15 13:02:51.487 +03:00 [INF] Сервер успешно запущен!
+2023-10-15 13:02:51.573 +03:00 [INF] Now listening on: https://localhost:7123
+2023-10-15 13:02:51.575 +03:00 [INF] Now listening on: http://localhost:5151
+2023-10-15 13:02:51.575 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-10-15 13:02:51.576 +03:00 [INF] Hosting environment: Development
+2023-10-15 13:02:51.576 +03:00 [INF] Content root path: C:\Users\korni\source\repos\AspNetCoreHomework\hm9
+2023-10-15 13:02:52.233 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7123/swagger/index.html - -
+2023-10-15 13:02:52.425 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7123/swagger/index.html - - - 200 - text/html;charset=utf-8 195.3704ms
+2023-10-15 13:02:52.459 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7123/_framework/aspnetcore-browser-refresh.js - -
+2023-10-15 13:02:52.464 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7123/_framework/aspnetcore-browser-refresh.js - - - 200 11976 application/javascript;+charset=utf-8 4.7074ms
+2023-10-15 13:02:52.946 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7123/_vs/browserLink - -
+2023-10-15 13:02:52.958 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7123/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 12.0463ms
+2023-10-15 13:02:53.225 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7123/swagger/v1/swagger.json - -
+2023-10-15 13:02:53.230 +03:00 [INF] No action descriptors found. This may indicate an incorrectly configured application or missing application parts. To learn more, visit https://aka.ms/aspnet/mvc/app-parts
+2023-10-15 13:02:53.298 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7123/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 72.9669ms
+2023-10-15 13:02:55.456 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7123/send_email - -
+2023-10-15 13:02:55.461 +03:00 [INF] Executing endpoint 'HTTP: GET /send_email'
+2023-10-15 13:02:55.497 +03:00 [INF] EmailSender created
+2023-10-15 13:02:55.500 +03:00 [INF] Sending message. Try number:  1
+2023-10-15 13:02:55.827 +03:00 [INF] smtpClient connected
+2023-10-15 13:02:55.887 +03:00 [INF] smtpClient authenticated
+2023-10-15 13:02:56.049 +03:00 [WRN] Found an error: MailKit.Net.Smtp.SmtpCommandException: LTD BeGet: message sending is disabled for mailbox
+'asp2022pd011@rodion-m.ru'. Please, contact support@beget.ru
+   at MailKit.Net.Smtp.SmtpClient.SendAsync(FormatOptions options, MimeMessage message, MailboxAddress sender, IList`1 recipients, CancellationToken cancellationToken, ITransferProgress progress)
+   at MailKit.Net.Smtp.SmtpClient.SendAsync(FormatOptions options, MimeMessage message, MailboxAddress sender, IList`1 recipients, CancellationToken cancellationToken, ITransferProgress progress)
+   at hm8.EmailSender.SendEmailAsync(String fromName, String fromEmail, String password, String toName, String toEmail, String subject, String body, CancellationToken cancellationToken) in C:\Users\korni\source\repos\AspNetCoreHomework\hm9\EmailSender.cs:line 82
+   at Program.<>c.<<<Main>$>b__0_3>d.MoveNext() in C:\Users\korni\source\repos\AspNetCoreHomework\hm9\Program.cs:line 73
+2023-10-15 13:03:01.060 +03:00 [INF] Sending message. Try number:  2
+2023-10-15 13:03:01.156 +03:00 [INF] smtpClient connected
+2023-10-15 13:03:01.195 +03:00 [INF] smtpClient authenticated
+2023-10-15 13:03:01.210 +03:00 [WRN] Found an error: MailKit.Net.Smtp.SmtpCommandException: LTD BeGet: message sending is disabled for mailbox
+'asp2022pd011@rodion-m.ru'. Please, contact support@beget.ru
+   at MailKit.Net.Smtp.SmtpClient.SendAsync(FormatOptions options, MimeMessage message, MailboxAddress sender, IList`1 recipients, CancellationToken cancellationToken, ITransferProgress progress)
+   at MailKit.Net.Smtp.SmtpClient.SendAsync(FormatOptions options, MimeMessage message, MailboxAddress sender, IList`1 recipients, CancellationToken cancellationToken, ITransferProgress progress)
+   at hm8.EmailSender.SendEmailAsync(String fromName, String fromEmail, String password, String toName, String toEmail, String subject, String body, CancellationToken cancellationToken) in C:\Users\korni\source\repos\AspNetCoreHomework\hm9\EmailSender.cs:line 82
+   at Program.<>c.<<<Main>$>b__0_3>d.MoveNext() in C:\Users\korni\source\repos\AspNetCoreHomework\hm9\Program.cs:line 73
+2023-10-15 13:03:06.212 +03:00 [INF] Sending message. Try number:  3
+2023-10-15 13:03:06.308 +03:00 [INF] smtpClient connected
+2023-10-15 13:03:06.354 +03:00 [INF] smtpClient authenticated
+2023-10-15 13:03:06.385 +03:00 [WRN] Found an error: MailKit.Net.Smtp.SmtpCommandException: LTD BeGet: message sending is disabled for mailbox
+'asp2022pd011@rodion-m.ru'. Please, contact support@beget.ru
+   at MailKit.Net.Smtp.SmtpClient.SendAsync(FormatOptions options, MimeMessage message, MailboxAddress sender, IList`1 recipients, CancellationToken cancellationToken, ITransferProgress progress)
+   at MailKit.Net.Smtp.SmtpClient.SendAsync(FormatOptions options, MimeMessage message, MailboxAddress sender, IList`1 recipients, CancellationToken cancellationToken, ITransferProgress progress)
+   at hm8.EmailSender.SendEmailAsync(String fromName, String fromEmail, String password, String toName, String toEmail, String subject, String body, CancellationToken cancellationToken) in C:\Users\korni\source\repos\AspNetCoreHomework\hm9\EmailSender.cs:line 82
+   at Program.<>c.<<<Main>$>b__0_3>d.MoveNext() in C:\Users\korni\source\repos\AspNetCoreHomework\hm9\Program.cs:line 73
+2023-10-15 13:03:11.387 +03:00 [ERR] Error with IEmailSender: message not delivered hm8.EmailSender
+2023-10-15 13:03:11.390 +03:00 [INF] Executed endpoint 'HTTP: GET /send_email'
+2023-10-15 13:03:11.391 +03:00 [INF] EmailSender disposed
+2023-10-15 13:03:11.392 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7123/send_email - - - 200 - text/plain;+charset=utf-8 15935.6580ms
+2023-10-15 13:03:40.646 +03:00 [INF] Сервер успешно запущен!
+2023-10-15 13:03:40.844 +03:00 [INF] Now listening on: https://localhost:7123
+2023-10-15 13:03:40.847 +03:00 [INF] Now listening on: http://localhost:5151
+2023-10-15 13:03:40.848 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-10-15 13:03:40.848 +03:00 [INF] Hosting environment: Development
+2023-10-15 13:03:40.849 +03:00 [INF] Content root path: C:\Users\korni\source\repos\AspNetCoreHomework\hm9
+2023-10-15 13:03:41.727 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7123/swagger/index.html - -
+2023-10-15 13:03:41.968 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7123/swagger/index.html - - - 200 - text/html;charset=utf-8 242.7918ms
+2023-10-15 13:03:42.000 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7123/_framework/aspnetcore-browser-refresh.js - -
+2023-10-15 13:03:42.005 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7123/_framework/aspnetcore-browser-refresh.js - - - 200 11976 application/javascript;+charset=utf-8 5.2026ms
+2023-10-15 13:03:42.532 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7123/_vs/browserLink - -
+2023-10-15 13:03:42.563 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7123/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 31.0557ms
+2023-10-15 13:03:42.859 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7123/swagger/v1/swagger.json - -
+2023-10-15 13:03:42.864 +03:00 [INF] No action descriptors found. This may indicate an incorrectly configured application or missing application parts. To learn more, visit https://aka.ms/aspnet/mvc/app-parts
+2023-10-15 13:03:42.961 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7123/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 102.5037ms
+2023-10-15 13:03:44.798 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7123/send_email - -
+2023-10-15 13:03:44.808 +03:00 [INF] Executing endpoint 'HTTP: GET /send_email'
+2023-10-15 13:03:44.865 +03:00 [INF] EmailSender created
+2023-10-15 13:03:44.867 +03:00 [INF] Sending message. Try number:  1
+2023-10-15 13:03:45.048 +03:00 [INF] smtpClient connected
+2023-10-15 13:03:45.095 +03:00 [INF] smtpClient authenticated
+2023-10-15 13:03:45.222 +03:00 [WRN] Found an error: MailKit.Net.Smtp.SmtpCommandException: LTD BeGet: message sending is disabled for mailbox
+'asp2022pd011@rodion-m.ru'. Please, contact support@beget.ru
+   at MailKit.Net.Smtp.SmtpClient.SendAsync(FormatOptions options, MimeMessage message, MailboxAddress sender, IList`1 recipients, CancellationToken cancellationToken, ITransferProgress progress)
+   at MailKit.Net.Smtp.SmtpClient.SendAsync(FormatOptions options, MimeMessage message, MailboxAddress sender, IList`1 recipients, CancellationToken cancellationToken, ITransferProgress progress)
+   at hm8.EmailSender.SendEmailAsync(String fromName, String fromEmail, String password, String toName, String toEmail, String subject, String body, CancellationToken cancellationToken) in C:\Users\korni\source\repos\AspNetCoreHomework\hm9\EmailSender.cs:line 82
+   at Program.<>c.<<<Main>$>b__0_3>d.MoveNext() in C:\Users\korni\source\repos\AspNetCoreHomework\hm9\Program.cs:line 73
+2023-10-15 13:03:50.238 +03:00 [INF] Sending message. Try number:  2
+2023-10-15 13:03:50.348 +03:00 [INF] smtpClient connected
+2023-10-15 13:03:50.386 +03:00 [INF] smtpClient authenticated
+2023-10-15 13:03:50.450 +03:00 [WRN] Found an error: MailKit.Net.Smtp.SmtpCommandException: LTD BeGet: message sending is disabled for mailbox
+'asp2022pd011@rodion-m.ru'. Please, contact support@beget.ru
+   at MailKit.Net.Smtp.SmtpClient.SendAsync(FormatOptions options, MimeMessage message, MailboxAddress sender, IList`1 recipients, CancellationToken cancellationToken, ITransferProgress progress)
+   at MailKit.Net.Smtp.SmtpClient.SendAsync(FormatOptions options, MimeMessage message, MailboxAddress sender, IList`1 recipients, CancellationToken cancellationToken, ITransferProgress progress)
+   at hm8.EmailSender.SendEmailAsync(String fromName, String fromEmail, String password, String toName, String toEmail, String subject, String body, CancellationToken cancellationToken) in C:\Users\korni\source\repos\AspNetCoreHomework\hm9\EmailSender.cs:line 82
+   at Program.<>c.<<<Main>$>b__0_3>d.MoveNext() in C:\Users\korni\source\repos\AspNetCoreHomework\hm9\Program.cs:line 73
+2023-10-15 13:03:55.465 +03:00 [INF] Sending message. Try number:  3
+2023-10-15 13:04:04.925 +03:00 [INF] smtpClient connected
+2023-10-15 13:04:04.969 +03:00 [INF] smtpClient authenticated
+2023-10-15 13:04:05.027 +03:00 [WRN] Found an error: MailKit.Net.Smtp.SmtpCommandException: LTD BeGet: message sending is disabled for mailbox
+'asp2022pd011@rodion-m.ru'. Please, contact support@beget.ru
+   at MailKit.Net.Smtp.SmtpClient.SendAsync(FormatOptions options, MimeMessage message, MailboxAddress sender, IList`1 recipients, CancellationToken cancellationToken, ITransferProgress progress)
+   at MailKit.Net.Smtp.SmtpClient.SendAsync(FormatOptions options, MimeMessage message, MailboxAddress sender, IList`1 recipients, CancellationToken cancellationToken, ITransferProgress progress)
+   at hm8.EmailSender.SendEmailAsync(String fromName, String fromEmail, String password, String toName, String toEmail, String subject, String body, CancellationToken cancellationToken) in C:\Users\korni\source\repos\AspNetCoreHomework\hm9\EmailSender.cs:line 82
+   at Program.<>c.<<<Main>$>b__0_3>d.MoveNext() in C:\Users\korni\source\repos\AspNetCoreHomework\hm9\Program.cs:line 73
+2023-10-15 13:04:11.404 +03:00 [INF] Сервер успешно запущен!
+2023-10-15 13:04:11.594 +03:00 [INF] Now listening on: https://localhost:7123
+2023-10-15 13:04:11.596 +03:00 [INF] Now listening on: http://localhost:5151
+2023-10-15 13:04:11.597 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-10-15 13:04:11.597 +03:00 [INF] Hosting environment: Development
+2023-10-15 13:04:11.598 +03:00 [INF] Content root path: C:\Users\korni\source\repos\AspNetCoreHomework\hm9
+2023-10-15 13:04:12.243 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7123/swagger/index.html - -
+2023-10-15 13:04:12.477 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7123/swagger/index.html - - - 200 - text/html;charset=utf-8 235.7043ms
+2023-10-15 13:04:12.507 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7123/_framework/aspnetcore-browser-refresh.js - -
+2023-10-15 13:04:12.512 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7123/_framework/aspnetcore-browser-refresh.js - - - 200 11976 application/javascript;+charset=utf-8 4.7368ms
+2023-10-15 13:04:13.015 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7123/_vs/browserLink - -
+2023-10-15 13:04:13.041 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7123/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 25.7647ms
+2023-10-15 13:04:13.330 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7123/swagger/v1/swagger.json - -
+2023-10-15 13:04:13.336 +03:00 [INF] No action descriptors found. This may indicate an incorrectly configured application or missing application parts. To learn more, visit https://aka.ms/aspnet/mvc/app-parts
+2023-10-15 13:04:13.440 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7123/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 110.1276ms
+2023-10-15 13:04:15.638 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7123/send_email - -
+2023-10-15 13:04:15.647 +03:00 [INF] Executing endpoint 'HTTP: GET /send_email'
+2023-10-15 13:04:15.700 +03:00 [INF] EmailSender created
+2023-10-15 13:04:15.702 +03:00 [INF] Sending message. Try number:  1
+2023-10-15 13:04:21.617 +03:00 [INF] smtpClient connected
+2023-10-15 13:04:22.559 +03:00 [INF] smtpClient authenticated
+2023-10-15 13:07:27.096 +03:00 [INF] Сервер успешно запущен!
+2023-10-15 13:07:27.298 +03:00 [INF] Now listening on: https://localhost:7123
+2023-10-15 13:07:27.301 +03:00 [INF] Now listening on: http://localhost:5151
+2023-10-15 13:07:27.302 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-10-15 13:07:27.306 +03:00 [INF] Hosting environment: Development
+2023-10-15 13:07:27.306 +03:00 [INF] Content root path: C:\Users\korni\source\repos\AspNetCoreHomework\hm9
+2023-10-15 13:07:28.073 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7123/swagger/index.html - -
+2023-10-15 13:07:28.290 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7123/swagger/index.html - - - 200 - text/html;charset=utf-8 219.0966ms
+2023-10-15 13:07:28.325 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7123/_framework/aspnetcore-browser-refresh.js - -
+2023-10-15 13:07:28.330 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7123/_framework/aspnetcore-browser-refresh.js - - - 200 11976 application/javascript;+charset=utf-8 4.8948ms
+2023-10-15 13:07:28.853 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7123/_vs/browserLink - -
+2023-10-15 13:07:28.891 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7123/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 38.6251ms
+2023-10-15 13:07:29.211 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7123/swagger/v1/swagger.json - -
+2023-10-15 13:07:29.218 +03:00 [INF] No action descriptors found. This may indicate an incorrectly configured application or missing application parts. To learn more, visit https://aka.ms/aspnet/mvc/app-parts
+2023-10-15 13:07:29.342 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7123/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 130.3797ms
+2023-10-15 13:07:41.900 +03:00 [INF] Сервер успешно запущен!
+2023-10-15 13:07:42.094 +03:00 [INF] Now listening on: https://localhost:7123
+2023-10-15 13:07:42.097 +03:00 [INF] Now listening on: http://localhost:5151
+2023-10-15 13:07:42.098 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-10-15 13:07:42.102 +03:00 [INF] Hosting environment: Development
+2023-10-15 13:07:42.103 +03:00 [INF] Content root path: C:\Users\korni\source\repos\AspNetCoreHomework\hm9
+2023-10-15 13:07:42.862 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7123/swagger/index.html - -
+2023-10-15 13:07:43.087 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7123/swagger/index.html - - - 200 - text/html;charset=utf-8 227.0649ms
+2023-10-15 13:07:43.126 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7123/_framework/aspnetcore-browser-refresh.js - -
+2023-10-15 13:07:43.133 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7123/_framework/aspnetcore-browser-refresh.js - - - 200 11976 application/javascript;+charset=utf-8 6.1409ms
+2023-10-15 13:07:43.683 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7123/_vs/browserLink - -
+2023-10-15 13:07:43.709 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7123/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 26.8049ms
+2023-10-15 13:07:44.001 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7123/swagger/v1/swagger.json - -
+2023-10-15 13:07:44.007 +03:00 [INF] No action descriptors found. This may indicate an incorrectly configured application or missing application parts. To learn more, visit https://aka.ms/aspnet/mvc/app-parts
+2023-10-15 13:07:44.093 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7123/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 92.6897ms
+2023-10-15 13:07:46.460 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7123/send_email - -
+2023-10-15 13:07:46.470 +03:00 [INF] Executing endpoint 'HTTP: GET /send_email'
+2023-10-15 13:07:46.522 +03:00 [INF] EmailSender created
+2023-10-15 13:07:46.524 +03:00 [INF] Sending message. Try number:  1
+2023-10-15 13:08:40.744 +03:00 [INF] smtpClient connected
+2023-10-15 13:08:46.280 +03:00 [INF] smtpClient authenticated
